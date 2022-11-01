@@ -1,0 +1,14 @@
+# IAM_USER_NAME's config for iam assume role
+#
+# ex)
+# [profile_mfa]
+# region = ap-northeast-2
+# output = json
+# credential_process = python3 ... --device arn:... --otpkey ... --profile profile_user
+#
+# [profile_assume]
+# region = ap-northeast-2
+# output = json
+# source_profile = profile_mfa
+# role_arn = arn:...
+

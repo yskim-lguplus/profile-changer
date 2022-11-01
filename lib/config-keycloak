@@ -1,0 +1,10 @@
+# keycloak config file.
+#
+# ex)
+# [profile_1]
+# region=ap-northeast-2
+# output=json
+#
+# [profile_2]
+# region=ap-northeast-2
+# output=json
